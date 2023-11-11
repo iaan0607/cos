@@ -14,14 +14,14 @@ with tab2:
 
   with tab1:
     st.header("Football")
-    tab1,tab2,tab3,tab4 = st.tabs(["EPL","LALIGA","SERIE A","K LEAGUE"])
-    with tab1:
+    taba,tabb,tabc,tabd = st.tabs(["EPL","LALIGA","SERIE A","K LEAGUE"])
+    with taba:
       st.header("EPL")
-    with tab2:
+    with tabb:
       st.header("LALIGA")
-    with tab3:
+    with tabc:
       st.header("SERIE A")
-    with tab4:
+    with tabd:
       st.header("K LEAGUE")
       
   with tab2:
