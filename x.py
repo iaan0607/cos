@@ -13,7 +13,7 @@ with tab2:
   taba,tabb,tabc,tabd = st.tabs(["EPL","LALIGA","SERIE A","K LEAGUE"])
   with taba:
     st.header("EPL")
-    df = pd.read_csv("epl ranking")
+    df = pd.read_csv("epl.csv")
     df
   with tabb:
     st.header("LALIGA")
