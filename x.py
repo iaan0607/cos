@@ -12,13 +12,13 @@ with tab2:
   st.header("football")
   taba,tabb,tabc,tabd = st.tabs(["EPL","LALIGA","SERIE A","K LEAGUE"])
   with taba:
-  st.header("EPL")
+    st.header("EPL")
   with tabb:
-  st.header("LALIGA")
+    st.header("LALIGA")
   with tabc:
-  st.header("SERIE A")
+    st.header("SERIE A")
   with tabd:
-  st.header("K LEAGUE")
+    st.header("K LEAGUE")
       
  
 
